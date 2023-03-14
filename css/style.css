@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
+  height: 100vh;
+}
+
+.side-padding {
+  padding: 0 3.9rem;
+}
+header {
+  margin-top: 3.8rem;
+  margin-bottom: 6.9rem;
+}
+
+header img {
+  width: 20%;
+}
+
+.main-img {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.content h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #ffffff;
+  margin-bottom: 1.6rem;
+}
+
+.content p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  margin-bottom: 2.4rem;
+}
+
+.content button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #684bb1;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.269022);
+  border-radius: 2rem;
+  padding: 1.1rem 7.5rem;
+  transition: all 0.3s ease;
+}
+
+.content button:hover {
+  background: #e880e8;
+  box-shadow: 0.2rem 0.4rem 0.9rem 0.3rem rgba(0, 0, 0, 0.258633);
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.footer-icon-div {
+  text-align: center;
+}
+
+.footer-icon-div svg {
+  width: 20%;
+  fill: #ffffff;
+  transition: all 0.3s ease;
+}
+.footer-icon-div svg:hover {
+  fill: #e880e8;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 90em) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+  }
+
+  .side-padding {
+    padding: 0 8rem;
+  }
+  header {
+    margin: 6.4rem 0 10.17rem 0;
+  }
+
+  main {
+    display: flex;
+    gap: 5.9rem;
+  }
+
+  main .main-img,
+  .content {
+    margin: 0;
+  }
+
+  .content {
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+  .content h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+    margin: 0;
+  }
+
+  .content p {
+    margin: 2.4rem 0;
+  }
+
+  .content p,
+  .content button {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+
+  .content button {
+    border-radius: 2.8rem;
+    padding: 1.1rem 6.4rem;
+  }
+
+  footer {
+    margin-top: 2.7rem;
+    justify-content: flex-end;
+  }
+
+  .footer-icon-div svg {
+    width: 30%;
+  }
+}
