@@ -12,4 +12,4 @@
 ## Author
 
 - GirHub Repo - [Giorgi Gurgenidze](https://github.com/gurgenidzegiorgi/Huddle-Landing-Page)
-- Live URL - [GitHub](https://www.frontendmentor.io/profile/yourusername)
+- Live URL - [GitHub](https://gurgenidzegiorgi.github.io/Huddle-Landing-Page/)
