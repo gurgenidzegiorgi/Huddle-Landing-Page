@@ -10,7 +10,6 @@ body {
   background-position: center;
   background-size: cover;
   background-color: hsl(257, 40%, 49%);
-  height: 100vh;
 }
 
 .side-padding {
