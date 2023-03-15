@@ -1,6 +1,4 @@
-# Huddle landing page
-
-## My process
+# Huddle landing page (With only single introductory section)
 
 ### Built with
 
